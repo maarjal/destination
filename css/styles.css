@@ -1,0 +1,95 @@
+body {
+  background-color: #EAEAEA;
+}
+
+.goback {
+  font-family: 'PT Sans Caption', sans-serif;
+  color: white;
+  display: none;
+}
+
+.goback:hover {
+  color: white;
+}
+
+.container {
+  width: 50%;
+}
+
+.jumbotron {
+  text-align: center;
+  background: url("../img/vacation.jpg") no-repeat center center;
+  background-size: cover;
+  color:#478084;
+}
+
+h1 {
+font-family: 'PT Sans Caption', sans-serif;
+text-transform: uppercase;
+}
+
+.jumbotron p {
+  text-transform: uppercase;
+  font-weight: bolder;
+  font-family: 'PT Sans Caption', sans-serif;
+  color: #325B5E;
+  padding-top: 5px;
+}
+
+.btn {
+  background-color: #478084;
+  border: none;
+  font-family: 'PT Sans Caption', sans-serif;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.btn:hover {
+  background-color: #478084;
+  font-weight: bold;
+  color: white;
+}
+
+#result {
+  display: none;
+  text-align: center;
+  font-family: 'PT Sans Caption', sans-serif;
+  color: #325B5E;
+  margin-bottom: 25px;
+}
+
+#result2 {
+  display: none;
+  text-align: center;
+  font-family: 'PT Sans Caption', sans-serif;
+  color: #325B5E;
+  margin-bottom: 25px;
+}
+
+#result h2 {
+  font-size: 48px;
+}
+
+#result p {
+  font-size: 24px;
+}
+
+.result-img {
+  width: 600px;
+  height: 300px;
+  display: block;
+  border: 1px solid #5CA4A9;
+  border-radius: 10px;
+}
+
+.result-img2 {
+  width: 600px;
+  height: 450px;
+  display: block;
+  border: 1px solid #5CA4A9;
+  border-radius: 10px;
+}
+
+.error {
+  color: darkred;
+}
